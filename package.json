@@ -1,0 +1,39 @@
+{
+    "name": "bugzilla",
+    "displayName": "bugzilla",
+    "description": "configuration and extensions for working on bugzilla",
+    "version": "0.0.1",
+    "publisher": "dylanwh",
+    "engines": {
+        "vscode": "^1.15.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionDependencies": [
+        "Kaktus.perltidy-more",
+        "sfodje.perlcritic",
+        "henriiik.vscode-perl",
+        "EditorConfig.EditorConfig",
+        "adamvoss.yaml",
+        "dbaeumer.vscode-eslint",
+        "eg2.vscode-npm-script",
+        "formulahendry.auto-close-tag",
+        "mrmlnc.vscode-apache",
+        "samosad.tt"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "tt",
+                "extensions": [".tmpl"]
+            },
+            {
+                "id": "perl",
+                "extensions": [
+                    ".cgi"
+                ]
+            }
+        ]
+    }
+}

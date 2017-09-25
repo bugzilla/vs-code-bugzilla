@@ -1,13 +1,14 @@
 # README
-## This is the README for your extension pack "bugzilla"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
 
-* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
+This is a bundle I use to work on bugzilla.
+It includes support for additional syntaxes required by bugzilla:
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+* template toolkit
+* apache config
+* docker config
+* YAML
+* extended auto-closing-tags
 
-**Enjoy!**
+It also adds support for code formatting (perltidy) and linting (perlcritic).
+
+In the future it might include better syntax highlighting for perl as VSCode's is a little lacking for new features.

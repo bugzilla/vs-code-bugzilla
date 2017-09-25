@@ -13,7 +13,6 @@
     "extensionDependencies": [
         "Kaktus.perltidy-more",
         "sfodje.perlcritic",
-        "henriiik.vscode-perl",
         "EditorConfig.EditorConfig",
         "adamvoss.yaml",
         "dbaeumer.vscode-eslint",

@@ -2,7 +2,7 @@
     "name": "bugzilla",
     "displayName": "Bugzilla",
     "description": "configuration and extensions for working on bugzilla",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "dylanwh",
     "engines": {
         "vscode": "^1.15.0"

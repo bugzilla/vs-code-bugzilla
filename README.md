@@ -15,10 +15,23 @@ In the future it might include better syntax highlighting for perl as VSCode's i
 
 ## Required Setup
 
-You need to install the following modules,
-using cpanm. If you don't have cpanm installed, first install that using apt/yum/homebrew.
+The commands "perlcritic" and "perltidy" need to be in the path.
+Additionally, perlcritic requires Perl::Critic::Freenode.
+Typically you'd install these with the cpanm command.
+
+### OSX
+
+Using homebrew:
 
 ```bash
-sudo cpanm Perl::Critic::Freenode Perl::Critic Perl::Tidy
+brew install perl
+brew install cpanminus
+cpanm Perl::Critic::Freenode Perl::Critic Perl::Tidy
 ```
+
+### Windows
+
+TODO
+
+### Linux (Ubuntu)
 

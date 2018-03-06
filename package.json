@@ -2,7 +2,7 @@
     "name": "bugzilla",
     "displayName": "Bugzilla",
     "description": "configuration and extensions for working on bugzilla",
-    "version": "0.0.5",
+    "version": "1.0.0",
     "publisher": "dylanwh",
     "repository": "https://github.com/mozilla-bteam/vs-code-bugzilla.git",
     "engines": {

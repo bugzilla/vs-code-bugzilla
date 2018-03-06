@@ -31,7 +31,12 @@ cpanm Perl::Critic::Freenode Perl::Critic Perl::Tidy
 
 ### Windows
 
-TODO
+Install [Stawberry Perl](http://strawberryperl.com/) first, then from the terminal:
+
+```powershell
+cpanm Perl::Critic::Freenode Perl::Critic Perl::Tidy
+```
 
 ### Linux (Ubuntu)
 
+TODO

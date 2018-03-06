@@ -2,7 +2,7 @@
     "name": "bugzilla",
     "displayName": "Bugzilla",
     "description": "configuration and extensions for working on bugzilla",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "publisher": "dylanwh",
     "engines": {
         "vscode": "^1.15.0"
@@ -11,7 +11,7 @@
         "Extension Packs"
     ],
     "extensionDependencies": [
-        "Kaktus.perltidy-more",
+        "sfodje.perltidy",
         "sfodje.perlcritic",
         "EditorConfig.EditorConfig",
         "adamvoss.yaml",
